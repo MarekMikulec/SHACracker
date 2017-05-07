@@ -24,7 +24,7 @@ import fr.cryptohash.SHA256;
 
 public final class Core{
 	private static HashSet<String> hashSet = new HashSet<>();
-	private static int bitNumber = 72;
+	private static int bitNumber = 64;
 	/*
 	 * 32 bitů = 84 459 rounds and 1.157s bez SQL, se zápisem do SQL 220.199s
 	 * --> 200x pomalejší, i se zápisem na SSD, se zápisem do TXT 1.215s -->
